@@ -1,7 +1,12 @@
 # Maven
 
 trigger:
-- main
+   branches:
+    include:
+    - main
+  paths:
+   include:
+    - docs
 
 pool:
   vmImage: ubuntu-latest
