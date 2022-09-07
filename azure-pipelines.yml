@@ -6,7 +6,7 @@ trigger:
     - main
   paths:
    include:
-    - docs
+    - /*
 
 pool:
   vmImage: ubuntu-latest
